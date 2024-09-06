@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Hotel>
+
+@{
+    ViewBag.PageTitle = "Hotel Management";
+    ViewBag.CardTitle = "Hotels";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<a class="btn btn-primary" href="/Hotel/Create">Create</a>
+<br />
+<table class="table table-hover" width="100%">
+    <tr>
+        <td>Name</td>
+        <td>Description</td>
+        <td>createdtime</td>
+        <td>Action</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.createdtime</td>
+            <td>
+                <a class="btn btn-success" href="/Hotel/Edit/@item.Id">Edit</a>
+                <a class="btn btn-danger" href="/Hotel/Delete/@item.Id">Delete</a>
+
+            </td>
+        </tr>
+    }
+</table>

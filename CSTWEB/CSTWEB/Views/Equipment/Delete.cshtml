@@ -1,0 +1,49 @@
+﻿@model Equipment
+@{
+    ViewBag.PageTitle = "Equipment Management";
+    ViewBag.CardTitle = "Delete Equipment";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<div className="home-container">
+    <form asp-action="DeleteEquipment" method="post">
+        <input hidden asp-for="Id" />
+        <div class="mp-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" disabled class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <label asp-for="NameAr"></label>
+            <input asp-for="NameAr" disabled class="form-control" />
+        </div>
+        <div class="mp-3">
+            <label asp-for="EquipmentCode"></label>
+            <input asp-for="EquipmentCode" class="form-control" />
+            <span asp-validation-for="EquipmentCode" class="text-danger"></span>
+        </div>        
+        <div class="mp-3">
+            <label asp-for="Manufacturer"></label>
+            <input asp-for="Manufacturer" class="form-control" />
+            <span asp-validation-for="Manufacturer" class="text-danger"></span>
+        </div>        
+        <div class="mp-3">
+            <label asp-for="Agent"></label>
+            <input asp-for="Agent" class="form-control" />
+            <span asp-validation-for="Agent" class="text-danger"></span>
+        </div>        
+        <div class="mp-3">
+            <label asp-for="Cost"></label>
+            <input asp-for="Cost" class="form-control" />
+            <span asp-validation-for="Cost" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <button type="submit" class="btn btn-success">Delete</button>
+            <a asp-action="Index" asp-controller="Equipment" class="btn btn-danger">Back</a>
+        </div>
+    </form>
+
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+

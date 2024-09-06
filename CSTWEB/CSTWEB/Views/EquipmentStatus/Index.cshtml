@@ -1,0 +1,26 @@
+﻿@model IEnumerable<EquipmentStatus>
+@{
+    ViewBag.PageTitle = "Equipment Family Management";
+    ViewBag.CardTitle = "Equipment Status";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<a class="btn btn-primary" href="/EquipmentStatus/Create">Create</a>
+<br />
+<table class="table table-hover" width="100%">
+    <tr>
+        <td>Name</td>
+        <td>createdtime</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.createdtime</td>
+            <td>
+                <a class="btn btn-success" href="/EquipmentStatus/Edit/@item.Id">Edit</a>
+                <a class="btn btn-danger" href="/EquipmentStatus/Delete/@item.Id">Delete</a>
+
+            </td>
+        </tr>
+    }
+</table>

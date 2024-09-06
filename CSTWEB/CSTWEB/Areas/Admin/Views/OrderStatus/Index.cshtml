@@ -1,0 +1,22 @@
+﻿
+
+@{
+    ViewBag.PageTitle = "Order Status Management";
+    ViewBag.CardTitle = "Order Status";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}<a class="btn btn-primary" href="/OrderStatus/Create">Create</a>
+<br />
+<table id="mytable" class="table table-hover" width="100%">
+    <tr>
+        <td>Name</td>
+        <td>createdtime</td>
+    </tr>
+</table>
+
+
+@section Scripts {
+
+         <script src="~/js/Ostatus.js">
+             </script> 
+
+}

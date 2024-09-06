@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Department>
+
+@{
+    ViewBag.PageTitle = "Department Management";
+    ViewBag.CardTitle = " Departments";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+@* <partial name="_Toaster" />*@
+
+<a class="btn btn-primary" href="/Department/Create">Create</a>
+<br />
+<table class="table table-hover" width="100%">
+    <tr>
+        <td>Name</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+
+            <td>
+                <a class="btn btn-success" href="/Department/Edit/@item.Id">Edit</a>
+                <a class="btn btn-danger" href="/Department/Delete/@item.Id">Delete</a>
+
+            </td>
+        </tr>
+    }
+</table>

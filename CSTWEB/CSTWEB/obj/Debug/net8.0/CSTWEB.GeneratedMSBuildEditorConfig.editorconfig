@@ -1,0 +1,247 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CSTWEB
+build_property.RootNamespace = CSTWEB
+build_property.ProjectDir = C:\Users\ahmed-ibrahim\Dropbox\ASP\CSTWEB after repository\CSTWEB\CSTWEB\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\ahmed-ibrahim\Dropbox\ASP\CSTWEB after repository\CSTWEB\CSTWEB
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/OrderStatus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJTdGF0dXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/OrderStatus/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJTdGF0dXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/OrderStatus/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJTdGF0dXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/OrderStatus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJTdGF0dXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Classification/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NpZmljYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Classification/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NpZmljYXRpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Classification/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NpZmljYXRpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Classification/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NpZmljYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Department/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Department/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Eqclass/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXFjbGFzc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Eqclass/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXFjbGFzc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Eqclass/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXFjbGFzc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Eqclass/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXFjbGFzc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/EquipmentFamily/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RmFtaWx5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/EquipmentFamily/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RmFtaWx5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/EquipmentFamily/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RmFtaWx5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/EquipmentFamily/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50RmFtaWx5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/EquipmentStatus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50U3RhdHVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/EquipmentStatus/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50U3RhdHVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/EquipmentStatus/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50U3RhdHVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/EquipmentStatus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50U3RhdHVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Equipment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Equipment/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Equipment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Equipment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Hotel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Hotel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Hotel/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Hotel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Location/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Location/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Location/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Location/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Section/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Section/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Section/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Section/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Shared/_Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Shared/_Toaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub2FzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed-ibrahim/Dropbox/ASP/CSTWEB after repository/CSTWEB/CSTWEB/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ccld58o9ua

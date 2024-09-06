@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Eqclass>
+@{
+    ViewBag.PageTitle = "Class Management";
+    ViewBag.CardTitle = " Classes";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+@* <partial name="_Toaster" />*@
+<a class="btn btn-primary" href="Eqclass/Create">Create</a>
+<br />
+<table class="table table-hover" width="100%">
+    <tr>
+        <td>Name</td>
+        <td>Description</td>
+        <td>createdtime</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.createdtime</td>
+            <td>
+                <a class="btn btn-success" href="/Eqclass/Edit/@item.Id">Edit</a>
+                <a class="btn btn-danger" href="/Eqclass/Delete/@item.Id">Delete</a>
+
+            </td>
+        </tr>
+    }
+</table>

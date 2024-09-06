@@ -1,0 +1,25 @@
+﻿@model Location
+@{
+    ViewBag.PageTitle = "Location Management";
+    ViewBag.CardTitle = "Delete Location";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<div className="home-container">
+    <form asp-action="DeleteLocation" method="post">
+        <input hidden asp-for="Id" />
+        <div class="mp-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" disabled class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <button type="submit" class="btn btn-success">Delete</button>
+            <a asp-action="Index" asp-controller="Location" class="btn btn-danger">Back</a>
+        </div>
+    </form>
+
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+

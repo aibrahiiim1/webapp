@@ -1,0 +1,33 @@
+﻿@model Location
+@{
+    ViewBag.PageTitle = "Location Management";
+    ViewBag.CardTitle = "Edit Location";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<div className="home-container">
+    <form asp-action="Edit" method="post">
+        <input hidden asp-for="Id" />
+        <div class="mp-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <label asp-for="DepartmentId"></label>
+            <select asp-for="DepartmentId" class="form-control"
+                    asp-items="@(new SelectList(ViewBag.Department,"Id","display"))">
+            </select>
+            <span asp-validation-for="DepartmentId" class="text-danger"></span>
+
+        </div>
+        <div class="mp-3">
+            <button type="submit" class="btn btn-success">Update</button>
+            <a asp-action="Index" asp-controller="Location" class="btn btn-warning">Back</a>
+        </div>
+    </form>
+
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+

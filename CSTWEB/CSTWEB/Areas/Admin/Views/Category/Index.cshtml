@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Category>
+
+@{
+    ViewBag.PageTitle = "Category Management";
+    ViewBag.CardTitle = "Category";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+@* <partial name="_Toaster" />*@
+ <div>
+    <a class="btn btn-primary" href="/Admin/Category/Create">Create</a>
+</div>
+@* <div class="row">
+    <div class="col-md-4">
+        
+
+</div> *@
+<br />
+<table id="mytable" class="table table-hover" width="100%">
+    <tr>
+        <td>Name</td>
+        <td>Description</td>
+        <td>createdtime</td>
+        <td>Actions</td>
+    </tr>
+
+</table>
+@section Scripts {
+
+    <script src="/js/Ostatus.js">
+    </script>
+
+}

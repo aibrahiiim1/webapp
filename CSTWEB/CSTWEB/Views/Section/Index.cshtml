@@ -1,0 +1,28 @@
+﻿@using CSTWEB.Models
+@model IEnumerable<Section>
+
+@{
+    ViewBag.PageTitle = "Section Management";
+    ViewBag.CardTitle = "Sections";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<a class="btn btn-primary" href="/Section/Create">Create</a>
+<br />
+<table class="table table-hover" width="100%">
+    <tr>
+        <td>Name</td>
+        <td>Department</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Departments.Name</td>
+            <td>
+                <a class="btn btn-success" href="/Section/Edit/@item.Id">Edit</a>
+                <a class="btn btn-danger" href="/Section/Delete/@item.Id">Delete</a>
+
+            </td>
+        </tr>
+    }
+</table>

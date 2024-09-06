@@ -1,0 +1,24 @@
+﻿@model EquipmentStatus
+@{
+    ViewBag.PageTitle = "Equipment Family Management";
+    ViewBag.CardTitle = "Create Equipment Status";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<div className="home-container">
+    <form asp-action="Create" method="post">
+        <div class="mp-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-action="Index" asp-controller="EquipmentStatus" class="btn btn-warning">Back</a>
+        </div>
+    </form>
+
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+

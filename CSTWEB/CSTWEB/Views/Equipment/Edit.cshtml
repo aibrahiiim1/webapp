@@ -1,0 +1,71 @@
+﻿@model Equipment
+@{
+    ViewBag.PageTitle = "Equipment Management";
+    ViewBag.CardTitle = "Edit Equipment";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<div className="home-container">
+    <form asp-action="Edit" method="post">
+        <input hidden asp-for="Id" />
+        <div class="mp-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <label asp-for="NameAr"></label>
+            <input asp-for="NameAr" class="form-control" />
+            <span asp-validation-for="NameAr" class="text-danger"></span>
+        </div>        
+        <div class="mp-3">
+            <label asp-for="EquipmentCode"></label>
+            <input asp-for="EquipmentCode" class="form-control" />
+            <span asp-validation-for="EquipmentCode" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <label asp-for="Manufacturer"></label>
+            <input asp-for="Manufacturer" class="form-control" />
+            <span asp-validation-for="Manufacturer" class="text-danger"></span>
+        </div>        
+        <div class="mp-3">
+            <label asp-for="Agent"></label>
+            <input asp-for="Agent" class="form-control" />
+            <span asp-validation-for="Agent" class="text-danger"></span>
+        </div>        
+        <div class="mp-3">
+            <label asp-for="Cost"></label>
+            <input asp-for="Cost" class="form-control" />
+            <span asp-validation-for="Cost" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <label asp-for="CategoryId"></label>
+            <select asp-for="CategoryId" class="form-control"
+                    asp-items="@(new SelectList(ViewBag.Category,"Id","display"))">
+            </select>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+        </div>        
+        <div class="mp-3">
+            <label asp-for="EquipmentFamilyId"></label>
+            <select asp-for="EquipmentFamilyId" class="form-control"
+                    asp-items="@(new SelectList(ViewBag.EquipmentFamily,"Id","display"))">
+            </select>
+            <span asp-validation-for="EquipmentFamilyId" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <label asp-for="EqclassId"></label>
+            <select asp-for="EqclassId" class="form-control"
+                    asp-items="@(new SelectList(ViewBag.Eqclass,"Id","display"))">
+            </select>
+            <span asp-validation-for="EqclassId" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <button type="submit" class="btn btn-success">Update</button>
+            <a asp-action="Index" asp-controller="Equipment" class="btn btn-warning">Back</a>
+        </div>
+    </form>
+
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+

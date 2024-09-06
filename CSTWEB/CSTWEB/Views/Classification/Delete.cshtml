@@ -1,0 +1,27 @@
+﻿@model Classification
+<h1>Delete Classification</h1>
+<h4>Category</h4>
+<div className="home-container">
+    <form asp-action="DeleteClas" method="post">
+        <input hidden asp-for="Id" />
+        <div class="mp-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" disabled class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mp-3">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" disabled class="form-control" />
+
+        </div>
+        <div class="mp-3">
+            <button type="submit" class="btn btn-success">Delete</button>
+            <a asp-action="Index" asp-controller="Classification" class="btn btn-danger">Back</a>
+        </div>
+    </form>
+
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
